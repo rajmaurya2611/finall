@@ -1,10 +1,7 @@
 "use client";
 import { Carousel, Card } from "../../components/homepage/ui/apple-cards-carousel";
 import smt_small from "../../assets/images/projects/Smart Extract/Smt_small.png";
-import Glove from "../../assets/images/homepage/Glove.jpg"
-import M_Translate from "../../assets/images/homepage/M translate.jpg"
-import DummyContent from "./Projects/DummyContent";
-import Forkliftcard from "./Projects/Forklift"
+//import Glove from "../../assets/images/homepage/Glove.jpg"
 import Forklift from "../../assets/images/homepage/Forklift1.png"
 import DrawingComparison from "./Projects/DrawingComparison";
 import InvoiceInformationRetrieval from "./Projects/InvoiceInformationRetrieval";
@@ -14,6 +11,12 @@ import ClauseLens from "../../assets/images/projects/MNA/ClauseLens_Small.jpg"
 import Fin_small from "../../assets/images/projects/Finallytics/Fin_small.png"
 import CrimpCrossSection from "./Projects/CrimpCrossSection";
 import quali from "../../assets/images/projects/CrimpCrossSection/crimp_small.png"
+import GloveDetection from "./Projects/GloveDetection";
+import DS from "./Projects/DataScience";
+import Dwg from "../../assets/images/projects/DrawingComparison/Dwg_sm.png"
+//import Forkliftcard from "./Projects/Forklift"
+// import M_Translate from "../../assets/images/homepage/M translate.jpg"
+// import DummyContent from "./Projects/DummyContent";
 
 
 export function AppleCardsCarouselDemo() {
@@ -36,33 +39,9 @@ export function AppleCardsCarouselDemo() {
 const data = [
   {
     category: "",
-    title: "Extract Edge",
-    src: smt_small, // Direct reference to imported image
-    content: <InvoiceInformationRetrieval />,
-  },
-  {
-    category: "",
-    title: "Fintech Frontier",
-    src: Fin_small, // Direct reference to imported image
-    content: <FinancialBot/>,
-  },
-  {
-    category: "",
-    title: "Legal Lens",
-    src: ClauseLens, // Direct reference to imported image
-    content: <MNA />,
-  },
-  {
-    category: "",
     title: "Sketch Sense",
-    src: Glove, // Direct reference to imported image
+    src: Dwg, // Direct reference to imported image
     content: <DrawingComparison/>,
-  },
-  {
-    category: "",
-    title: "Translate Titan",
-    src: M_Translate, // Direct reference to imported image
-    content: <DummyContent />,
   },
   {
     category: "",
@@ -72,8 +51,38 @@ const data = [
   },
   {
     category: "",
-    title: "Forklift",
+    title: "Pokayoke",
     src: Forklift, // Direct reference to imported image
-    content: <Forkliftcard/>
+    content: <GloveDetection/>
   },
+  {
+    category: "",
+    title: "Raw Material Consumption",
+    src: Forklift, // Direct reference to imported image
+    content: <DS/>
+  },
+  {
+    category: "",
+    title: "Extract Edge",
+    src: smt_small, // Direct reference to imported image
+    content: <InvoiceInformationRetrieval />,
+  },
+  {
+    category: "",
+    title: "Legal Lens",
+    src: ClauseLens, // Direct reference to imported image
+    content: <MNA />,
+  },
+  {
+    category: "",
+    title: "Financial Bot",
+    src: Fin_small, // Direct reference to imported image
+    content: <FinancialBot/>,
+  },
+  // {
+  //   category: "",
+  //   title: "Translate Titan",
+  //   src: M_Translate, // Direct reference to imported image
+  //   content: <DummyContent />,
+  // },
 ];

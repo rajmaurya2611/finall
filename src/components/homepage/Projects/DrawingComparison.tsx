@@ -1,29 +1,48 @@
-import DwgIn from "../../../../src/assets/images/homepage/DwgIn.jpg"
+import Lottie from "lottie-react";
+import animationData from "../../../assets/animations/Drawing-animation.json"; 
+import Button from "../Button"; // Update path to your Lottie JSON file
 
 const DrawingComparison = () => {
-    return (
-      <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-center">
-        {/* Image */}
-        <img
-          src= {DwgIn} // Replace with your actual image URL
-          alt="Drawing Comparison"
-          className="w-full md:w-1/2 h-auto mx-auto object-contain mb-6"
-        />
+  return (
+    <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+      {/* Title */}
+      <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+        AI-Based Engineering CAD Drawing Comparison
+      </h2>
 
-        {/* Description */}
-        <p className="text-neutral-600 text-base md:text-lg max-w-3xl mx-auto mb-6">
-        A powerful, AI-driven system designed to seamlessly compare engineering drawings across multiple formats, highlighting changes with color coding for precise analysis, while being offline to ensure complete security and confidentiality.
-        </p>
-  
-        {/* Button */}
-        <button
-    onClick={() => window.open("http://10.245.146.250:5001/", "_blank")}
-    className="bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-500 transition-all"
-  >
-    Visit SketchSense
-  </button>
+      {/* Description */}
+      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
+        Enhancing design accuracy and efficiency with AI-driven automated drawing comparison. Our solution instantly detects changes between CAD design versions, ensuring precision, reducing errors, and streamlining the review process.
+      </p>
+
+      {/* Key Features & Benefits */}
+      <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features & Benefits</h3>
+      <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
+        <li><strong>Automated Change Detection:</strong> Instantly highlights modifications between design versions.</li>
+        <li><strong>Precision and Accuracy:</strong> Ensures consistency and minimizes errors.</li>
+        <li><strong>Time and Cost Savings:</strong> Reduces manual effort and rework.</li>
+        <li><strong>Seamless Collaboration:</strong> Improves communication between design, engineering, and manufacturing teams.</li>
+        <li><strong>Compliance and Quality Assurance:</strong> Validates design changes against industry standards.</li>
+        <li><strong>Integration with CAD & PLM Systems:</strong> Connects with existing workflows for efficient automation.</li>
+      </ul>
+
+      {/* Why It Matters */}
+      <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Why It Matters</h3>
+      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-3">
+        Manual comparison of engineering drawings is time-consuming and prone to errors. Our AI-powered solution improves accuracy, reduces risk, and accelerates design validation, making it an essential tool for modern engineering workflows.
+      </p>
+
+      {/* Button */}
+      <div className="flex justify-center items-center mt-6">
+        <Button text="Visit Sketch Sense" link="http://10.245.146.250:5001/" />
       </div>
-    );
-  };
 
-  export default DrawingComparison;
+      {/* Lottie Animation */}
+      <div className="w-full md:w-1/3 mx-auto mt-20">
+        <Lottie animationData={animationData} loop autoplay />
+      </div>
+    </div>
+  );
+};
+
+export default DrawingComparison;

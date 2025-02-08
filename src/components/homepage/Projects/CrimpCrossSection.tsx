@@ -1,29 +1,48 @@
-import DwgIn from "../../../../src/assets/images/homepage/DwgIn.jpg"
+import Lottie from "lottie-react";
+import animationData from "../../../assets/animations/Drawing-animation.json"; 
+import Button from "../Button"; // Update path to your Lottie JSON file
 
 const CrimpCrossSection = () => {
-    return (
-      <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-center">
-        {/* Image */}
-        <img
-          src= {DwgIn} // Replace with your actual image URL
-          alt="Drawing Comparison"
-          className="w-full md:w-1/2 h-auto mx-auto object-contain mb-6"
-        />
-  
-        {/* Description */}
-        <p className="text-neutral-600 text-base md:text-lg max-w-3xl mx-auto mb-6">
-        QualiSure is an AI-powered defect detection system designed for precise crimp cross-section analysis. It automates quality inspection, identifies defects in crimped connections, and ensures reliable electrical performance with high accuracy
-        </p>
-  
-        {/* Button */}
-        <button
-    onClick={() => window.open("http://10.245.146.250:5004/", "_blank")}
-    className="bg-blue-600 text-white py-3 px-6 rounded-full hover:bg-blue-500 transition-all"
-  >
-    Visit QualiSure
-  </button>
-      </div>
-    );
-  };
+  return (
+    <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+      {/* Title */}
+      <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+        AI-Based Inspection System
+      </h2>
 
-  export default CrimpCrossSection;
+      {/* Description */}
+      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
+        Revolutionizing defect detection in manufacturing with AI-powered high-precision quality control. Our system ensures accurate, real-time defect detection, reducing costs and improving production efficiency.
+      </p>
+
+      {/* Key Features & Benefits */}
+      <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features & Benefits</h3>
+      <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
+        <li><strong>High-Precision Quality Control:</strong> Detects defects such as cracks, misalignments, and surface irregularities.</li>
+        <li><strong>Automated Inspections:</strong> Reduces dependency on manual checks and accelerates production.</li>
+        <li><strong>Cost Reduction:</strong> Minimizes waste and rework by identifying defects early.</li>
+        <li><strong>Real-Time Defect Analysis:</strong> Provides instant feedback for proactive decision-making.</li>
+        <li><strong>Scalability and Consistency:</strong> Ensures standardized inspections across manufacturing operations.</li>
+        <li><strong>Seamless Integration:</strong> Works with robotics, conveyor systems, and MES for automation.</li>
+      </ul>
+
+      {/* Why It Matters */}
+      <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Why It Matters</h3>
+      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-3">
+        Traditional inspection methods are slow and inconsistent. AI-driven defect detection ensures higher quality, lower costs, and improved manufacturing efficiency, making it a crucial advancement for modern production lines.
+      </p>
+
+      {/* Button */}
+      <div className="flex justify-center items-center mt-6">
+        <Button text="Visit Qualisure" link="http://10.245.146.250:5004/" />
+      </div>
+
+      {/* Lottie Animation */}
+      <div className="w-full md:w-1/3 mx-auto mt-20">
+        <Lottie animationData={animationData} loop autoplay />
+      </div>
+    </div>
+  );
+};
+
+export default CrimpCrossSection;

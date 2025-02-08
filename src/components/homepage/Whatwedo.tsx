@@ -6,9 +6,9 @@ import pa from "../../assets/images/homepage/pa.jpg";
 
 const Card = ({ image, title, description }: { image: string; title: string; description: string }) => {
   return (
-    <div className="relative flex flex-col rounded-xl bg-white text-gray-700 shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-110 will-change-transform">
+    <div className="relative flex flex-col rounded-xl bg-white text-gray-900 shadow-md overflow-hidden transition-all duration-300 ease-in-out transform hover:scale-110 will-change-transform">
       {/* Card Header Image */}
-      <div className="relative h-40 overflow-hidden rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 shadow-lg">
+      <div className="relative h-40 overflow-hidden rounded-xl shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105 will-change-transform ">
         <img
           src={image}
           alt={title}
@@ -20,7 +20,7 @@ const Card = ({ image, title, description }: { image: string; title: string; des
       {/* Card Content */}
       <div className="p-6">
         <h5 className="mb-3 text-xl font-semibold text-blue-gray-900">{title}</h5>
-        <p className="text-base font-light leading-relaxed">{description}</p>
+        <p className="text-base text-black font-light leading-relaxed">{description}</p>
       </div>
     </div>
   );
@@ -50,11 +50,11 @@ const Whatwedo = () => {
 
   return (
     <div
-      className="relative bg-cover bg-center bg-no-repeat pt-16 pb-4 px-6"
+      className="relative bg-cover bg-center bg-no-repeat pt-12 pb-4 px-6"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
     >
       {/* Content */}
-      <div className="relative z-10 text-center max-w-6xl mx-auto">
+      <div className="relative z-10 text-center max-w-6xl mx-auto pb-16">
         <h2 className="text-2xl md:text-5xl font-light text-white font-poppins mb-12">
           What we Offer
         </h2>
