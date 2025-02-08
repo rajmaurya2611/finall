@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/clause-animation.json"; 
+import animationData from "../../../assets/animations/financial-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const  FinancialBot = () => {
