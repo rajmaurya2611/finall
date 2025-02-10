@@ -14,14 +14,13 @@ const  InvoiceInformationRetrieval = () => {
 
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-        AI-Powered Invoice Extraction System
+       AI-Powered Invoice Extraction System
       </h2>
 
       {/* Purpose */}
       <h3 className="text-xl font-bold text-gray-800 mb-4">Purpose</h3>
       <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
-        Organizations often struggle with extracting key invoice details from multiple formats, relying on manual data entry or rigid rule-based systems that lack scalability and accuracy.
-        Our AI-powered invoice extraction system automates this process by identifying, extracting, and structuring invoice data, ensuring seamless integration into financial systems.
+      Many organization use OCR technology to extract key details from invoices efficiently. OCR works on various documents but requires a proper pre-training and compromises in accuracy. ExtractEdge enhances data extraction from even the most complex invoices, ensuring greater accuracy and efficiency without any pre-training.
       </p>
 
       {/* Expected Benefits */}
