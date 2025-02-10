@@ -29,7 +29,7 @@ export function AppleCardsCarouselDemo() {
   return (
     <div className="w-full h-full pt-8 pb-20 bg-black flex flex-col items-center text-center">
   <h2 className="text-xl md:text-5xl font-poppins font-light text-white">
-    Motherson Cognitive Agents
+    Motherson Intelligence
   </h2>
   <Carousel items={cards} />
 </div>

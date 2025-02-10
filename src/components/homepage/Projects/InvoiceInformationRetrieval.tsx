@@ -20,7 +20,7 @@ const  InvoiceInformationRetrieval = () => {
       {/* Purpose */}
       <h3 className="text-xl font-bold text-gray-800 mb-4">Purpose</h3>
       <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
-      Many organization use OCR technology to extract key details from invoices efficiently. OCR works on various documents but requires a proper pre-training and compromises in accuracy. ExtractEdge enhances data extraction from even the most complex invoices, ensuring greater accuracy and efficiency without any pre-training.
+      Many organizations use OCR technology to extract key details from invoices. OCR works on various documents but requires a proper pre-training and compromises in accuracy. ExtractEdge enhances data extraction from even the most complex invoices, ensuring greater accuracy and efficiency without any pre-training.
       </p>
 
       {/* Expected Benefits */}
