@@ -1,13 +1,20 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/financial-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/financial-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const  FinancialBot = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+        {/* Button */}
+        <div className="flex justify-center items-center mb-6">
+        <Button text="Visit BudgetBeacon" link="http://10.245.146.250:8790/" />
+      </div>
+
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-        AI-Powered Financial Analysis – Finance Bot
+        AI-Powered Financial Analysis
       </h2>
 
       {/* Purpose */}
@@ -38,15 +45,10 @@ const  FinancialBot = () => {
         <li><strong>Custom Reporting:</strong> Generate tailored financial reports.</li>
       </ul>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Finance Bot" link="http://10.245.146.250:8790/" />
-      </div>
-
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-20">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-20">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

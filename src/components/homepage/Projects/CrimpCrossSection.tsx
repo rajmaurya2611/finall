@@ -1,10 +1,16 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/Drawing-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/Drawing-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const CrimpCrossSection = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+    {/* Button */}
+    <div className="flex justify-center items-center mb-6">
+        <Button text="Visit QualiSure" link="http://10.245.146.250:5004/" />
+      </div>
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
         AI-Based Inspection System
@@ -32,15 +38,10 @@ const CrimpCrossSection = () => {
         Traditional inspection methods are slow and inconsistent. AI-driven defect detection ensures higher quality, lower costs, and improved manufacturing efficiency, making it a crucial advancement for modern production lines.
       </p>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Qualisure" link="http://10.245.146.250:5004/" />
-      </div>
-
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-20">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-20">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

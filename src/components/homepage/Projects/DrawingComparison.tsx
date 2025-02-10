@@ -1,10 +1,16 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/Drawing-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/Drawing-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const DrawingComparison = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+       {/* Button */}
+       <div className="flex justify-center items-center mb-6">
+        <Button text="Visit SketchSense" link="http://10.245.146.250:5001/" />
+      </div>
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
         AI-Based Engineering CAD Drawing Comparison
@@ -32,15 +38,11 @@ const DrawingComparison = () => {
         Manual comparison of engineering drawings is time-consuming and prone to errors. Our AI-powered solution improves accuracy, reduces risk, and accelerates design validation, making it an essential tool for modern engineering workflows.
       </p>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Sketch Sense" link="http://10.245.146.250:5001/" />
-      </div>
 
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-20">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-20">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

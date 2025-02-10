@@ -1,10 +1,16 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/clause-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/clause-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const MNA = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+      {/* Button */}
+      <div className="flex justify-center items-center mb-6">
+        <Button text="Visit Legal Lens AI" link="http://10.245.146.250:8789/" />
+      </div>
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
         AI-Powered Legal Contract Analysis – Legal Lens AI
@@ -13,7 +19,7 @@ const MNA = () => {
       {/* Purpose */}
       <h3 className="text-xl font-bold text-gray-800 mb-4">Purpose</h3>
       <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
-        Extracting insights and comparing terms from lengthy M&A contracts (100+ pages) is time-consuming and prone to human error.
+        Extracting insights and comparing terms from lengthy merger and acquisition contracts (100+ pages) is time-consuming and prone to human error.
         Our AI-powered Legal Lens solution leverages Retrieval-Augmented Generation (RAG) and LLMs to enable fast, accurate querying and automatic comparison of contracts, highlighting key differences and favorable terms.
       </p>
 
@@ -35,15 +41,12 @@ const MNA = () => {
         <li><strong>Executive Reporting:</strong> Generate concise summary reports for informed decision-making.</li>
       </ul>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Legal Lens AI" link="http://10.245.146.250:8789/" />
-      </div>
+      
 
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-20">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-20">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

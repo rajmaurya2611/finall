@@ -1,10 +1,17 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/clause-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/clause-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const  InvoiceInformationRetrieval = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+      {/* Button */}
+      <div className="flex justify-center items-center mb-6">
+        <Button text="Visit Extract Edge" link="http://10.245.146.250:8785/" />
+      </div>
+
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
         AI-Powered Invoice Extraction System
@@ -37,15 +44,11 @@ const  InvoiceInformationRetrieval = () => {
         <li><strong>Financial Reporting & Audit:</strong> Enhances data accuracy for reporting.</li>
       </ul>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Extract Edge" link="http://10.245.146.250:8785/" />
-      </div>
 
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-20">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-20">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

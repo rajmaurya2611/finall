@@ -1,10 +1,16 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/Glove-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/Glove-animation.json"; 
 import Button from "../Button"// Update path to your Lottie JSON file
 
 const Glove = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+        {/* Button */}
+      <div className="flex justify-center items-center mb-6">
+      <Button text="See Demo" link="http://10.245.146.250:5006/" />
+</div>
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
         AI-Based Foolproofing System - Ensuring SOP Compliance and Safe Machine Operation
@@ -33,16 +39,12 @@ const Glove = () => {
         Non-compliance with standard operating procedures can lead to safety risks and operational inefficiencies. Our AI-powered foolproofing system ensures compliance, minimizes errors, and enhances productivity, fostering a safer and more efficient work environment.
       </p>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-      <Button text="See Demo" link="http://10.245.146.250:5006/" />
-</div>
 <div className="flex justify-center items-center mt-6">
       
 </div>
-<div className="w-full md:w-1/3 mx-auto">
+{/* <div className="w-full md:w-1/3 mx-auto">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };

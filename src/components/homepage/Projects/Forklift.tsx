@@ -1,13 +1,13 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/Forklift-animation.json"; // Update path to your Lottie JSON file
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/Forklift-animation.json"; // Update path to your Lottie JSON file
 
 const MNA = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-center">
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/2 mx-auto pb-4 p-4">
+      {/* <div className="w-full md:w-1/2 mx-auto pb-4 p-4">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
 
       {/* Description */}
       <p className="text-neutral-600 text-base md:text-lg max-w-3xl mx-auto mb-6">

@@ -41,7 +41,7 @@ export function AppleCardsCarouselDemo() {
 const data = [
   {
     category: "",
-    title: "Sketch Sense",
+    title: "SketchSense",
     src: Dwg, // Direct reference to imported image
     content: <DrawingComparison/>,
   },
@@ -53,31 +53,31 @@ const data = [
   },
   {
     category: "",
-    title: "Pokayoke",
+    title: "GloveGuardian",
     src: Glove, // Direct reference to imported image
     content: <GloveDetection/>
   },
   {
     category: "",
-    title: "Analytics",
+    title: "ProfitPulse",
     src: Raw, // Direct reference to imported image
     content: <DS/>
   },
   {
     category: "",
-    title: "Extract Edge",
+    title: "ExtractEdge",
     src: smt_small, // Direct reference to imported image
     content: <InvoiceInformationRetrieval />,
   },
   {
     category: "",
-    title: "Legal Lens",
+    title: "LegalLens",
     src: ClauseLens, // Direct reference to imported image
     content: <MNA />,
   },
   {
     category: "",
-    title: "Financial Bot",
+    title: "BudgetBeacon",
     src: Fin_small, // Direct reference to imported image
     content: <FinancialBot/>,
   },

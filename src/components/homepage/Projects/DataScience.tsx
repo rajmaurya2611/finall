@@ -1,13 +1,20 @@
-import Lottie from "lottie-react";
-import animationData from "../../../assets/animations/raw-animation.json"; 
+// import Lottie from "lottie-react";
+// import animationData from "../../../assets/animations/raw-animation.json"; 
 import Button from "../Button"; // Update path to your Lottie JSON file
 
 const DS = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
+
+      {/* Button */}
+      <div className="flex justify-center items-center mb-6">
+        <Button text="Visit ProfitPulse" link="https://analytics.ai.motherson.com/dashboard" />
+      </div>
+
+
       {/* Title */}
       <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-        Raw Material Consumption - Analyzing Opportunity Loss for SMP Germany's Finished Goods
+        Analyzing Opportunity Loss for SMP Germany's Finished Goods
       </h2>
 
       {/* Description */}
@@ -32,15 +39,10 @@ const DS = () => {
         <li><strong>Customer & Sales Performance Analysis:</strong> Assess which customers contribute the most to opportunity loss and fine-tune sales strategies to maximize profitability.</li>
       </ul>
 
-      {/* Button */}
-      <div className="flex justify-center items-center mt-6">
-        <Button text="Visit Raw Material Consumption" link="https://analytics.ai.motherson.com/dashboard" />
-      </div>
-
       {/* Lottie Animation */}
-      <div className="w-full md:w-1/3 mx-auto mt-12">
+      {/* <div className="w-full md:w-1/3 mx-auto mt-12">
         <Lottie animationData={animationData} loop autoplay />
-      </div>
+      </div> */}
     </div>
   );
 };
