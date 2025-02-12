@@ -4,9 +4,9 @@ import smt_small from "../../assets/images/projects/Smart Extract/Smt_small.png"
 import DrawingComparison from "./Projects/DrawingComparison";
 import InvoiceInformationRetrieval from "./Projects/InvoiceInformationRetrieval";
 import MNA from "./Projects/M&A";
-import FinancialBot from "./Projects/FinancialBot";
+//import FinancialBot from "./Projects/FinancialBot";
 import ClauseLens from "../../assets/images/projects/MNA/ClauseLens_Small.png"
-import Fin_small from "../../assets/images/projects/Finallytics/Fin_small.png"
+//import Fin_small from "../../assets/images/projects/Finallytics/Fin_small.png"
 import CrimpCrossSection from "./Projects/CrimpCrossSection";
 import quali from "../../assets/images/projects/CrimpCrossSection/crimp_small.png"
 import GloveDetection from "./Projects/GloveDetection";
