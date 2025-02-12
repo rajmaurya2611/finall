@@ -75,12 +75,12 @@ const data = [
     src: ClauseLens, // Direct reference to imported image
     content: <MNA />,
   },
-  {
-    category: "",
-    title: "BudgetBeacon",
-    src: Fin_small, // Direct reference to imported image
-    content: <FinancialBot/>,
-  },
+  // {
+  //   category: "",
+  //   title: "BudgetBeacon",
+  //   src: Fin_small, // Direct reference to imported image
+  //   content: <FinancialBot/>,
+  // },
   // {
   //   category: "",
   //   title: "Translate Titan",
