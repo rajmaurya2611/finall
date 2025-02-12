@@ -28,7 +28,7 @@ const  InvoiceInformationRetrieval = () => {
       <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
         <li><strong>Scalability:</strong> Handles increasing invoice volumes effortlessly.</li>
         <li><strong>Faster Processing Time:</strong> Accelerates invoice data extraction.</li>
-        <li><strong>Seamless Integration:</strong> Easily connects with financial systems.</li>
+        {/* <li><strong>Seamless Integration:</strong> Easily connects with financial systems.</li> */}
         <li><strong>Reduced Manual Errors:</strong> Minimizes human data entry mistakes.</li>
         <li><strong>Real-Time Data Access:</strong> Provides instant access to extracted data.</li>
       </ul>
@@ -38,9 +38,9 @@ const  InvoiceInformationRetrieval = () => {
       <ul className="text-neutral-800 text-lg text-left max-w-6xl space-y-2">
         <li><strong>Automated Invoice Processing:</strong> Streamlines invoice data extraction.</li>
         <li><strong>Multi-Format Compatibility:</strong> Supports diverse invoice formats.</li>
-        <li><strong>Tax & Compliance Validation:</strong> Ensures regulatory adherence.</li>
+        {/* <li><strong>Tax & Compliance Validation:</strong> Ensures regulatory adherence.</li>
         <li><strong>Accounts Payable Automation:</strong> Optimizes payment and approval workflows.</li>
-        <li><strong>Financial Reporting & Audit:</strong> Enhances data accuracy for reporting.</li>
+        <li><strong>Financial Reporting & Audit:</strong> Enhances data accuracy for reporting.</li> */}
       </ul>
 
 
