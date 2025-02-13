@@ -14,7 +14,7 @@ const Hero = () => {
             {/* Centered Text */}
             <Col className="relative z-10 text-center">
                 <div className="text-white font-poppins font-light text-6xl mb-4">
-                    Empowering Future with
+                    Empowering Business with
                 </div>
                 <div className="text-white font-poppins font-regular text-6xl">
                 <span className="text-6xl font-semibold text-[#F91B1B] ml-4">AI</span> Solutions
