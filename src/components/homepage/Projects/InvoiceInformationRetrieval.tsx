@@ -8,7 +8,7 @@ const  InvoiceInformationRetrieval = () => {
 
       {/* Button */}
       <div className="flex justify-center items-center mb-6">
-        <Button text="Visit Extract Edge" link="http://10.245.146.250:8785/" />
+        <Button text="Visit ExtractEdge" link="http://10.245.146.250:8785/" />
       </div>
 
 
