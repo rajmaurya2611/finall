@@ -2,7 +2,7 @@
 // import animationData from "../../../assets/animations/Glove-animation.json"; 
 import Button from "../Button"// Update path to your Lottie JSON file
 
-const Glove = () => {
+const Budget = () => {
   return (
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
 
@@ -51,4 +51,4 @@ const Glove = () => {
   );
 };
 
-export default Glove;
+export default Budget;
