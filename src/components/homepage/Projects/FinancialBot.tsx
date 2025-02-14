@@ -12,33 +12,35 @@ const Glove = () => {
 </div>
 
       {/* Title */}
-      <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-        AI-Based Foolproofing System - Ensuring SOP Compliance and Safe Machine Operation
-      </h2>
-
-      {/* Description */}
+      <h2 className="text-2xl font-semibold text-gray-900 mb-4">Purpose</h2>
+      
+      {/* Challenge & Solution */}
       <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
-        Workplace safety is paramount. Our AI-powered foolproofing system ensures operators follow safety protocols before machine activation, reducing risks and improving compliance.
-        By verifying procedural steps, the system minimizes human errors and maintains standardized processes across operations, ensuring consistent performance and adherence to industry best practices.
-        </p>
-
-      {/* Key Features & Benefits */}
-      <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features & Benefits</h3>
-      <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
-        <li><strong>Workplace Safety:</strong> Ensures operators follow safety protocols before machine activation.</li>
-        <li><strong>Error Prevention:</strong> Verifies procedural steps to reduce human errors.</li>
-        <li><strong>Standardized Processes:</strong> Maintains consistency across operations.</li>
-        <li><strong>Real-Time Monitoring and Alerts:</strong> Detects and reports SOP deviations instantly.</li>
-        <li><strong>Reduced Downtime:</strong> Prevents machine failures caused by improper handling.</li>
-        <li><strong>Seamless Integration:</strong> Works with IoT-enabled machines, PLCs, and MES for intelligent automation.</li>
-      </ul>
-
-      {/* Why It Matters */}
-      <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Why It Matters</h3>
-      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-3">
-        Non-compliance with standard operating procedures can lead to safety risks and operational inefficiencies. Our AI-powered foolproofing system ensures compliance, minimizes errors, and enhances productivity, fostering a safer and more efficient work environment.
+        <strong>Challenge:</strong> Financial teams struggle to efficiently extract and analyze detailed financial insights from large datasets, often requiring complex manual processes or SQL knowledge.
+      </p>
+      <p className="text-neutral-800 text-base md:text-lg max-w-6xl mb-6">
+        <strong>Solution:</strong> A natural language processing system that allows users to input simple queries and automatically generates SQL to fetch relevant financial data, providing a seamless user experience for non-technical users.
       </p>
 
+      {/* Expected Benefits */}
+      <h3 className="text-xl font-bold text-gray-800 mb-4">Expected Benefits</h3>
+      <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
+        <li><strong>Time Efficiency:</strong> Faster financial data analysis.</li>
+        <li><strong>Accuracy:</strong> Precise insights with minimal errors.</li>
+        <li><strong>Cost Savings:</strong> Reduced manual effort and errors.</li>
+        <li><strong>Informed Decision-Making:</strong> Data-driven insights for decisions.</li>
+        <li><strong>User Accessibility:</strong> Easy for non-technical users.</li>
+      </ul>
+
+      {/* Key Use Cases */}
+      <h3 className="text-xl font-bold text-gray-800 mt-8 mb-4">Key Use Cases</h3>
+      <ul className="text-neutral-700 text-lg text-left max-w-6xl space-y-2">
+        <li>✓ <strong>Monthly and YTD Comparison:</strong> Compare monthly and year-to-date data.</li>
+        <li>✓ <strong>Budget vs Actual Analysis:</strong> Analyze budget versus actual performance.</li>
+        <li>✓ <strong>Category Breakdown:</strong> Break down financial categories for insights.</li>
+        <li>✓ <strong>Spending Optimization:</strong> Identify opportunities to reduce spending.</li>
+        <li>✓ <strong>Custom Reporting:</strong> Generate tailored financial reports.</li>
+      </ul>
 <div className="flex justify-center items-center mt-6">
       
 </div>
