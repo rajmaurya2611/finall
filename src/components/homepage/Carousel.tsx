@@ -14,6 +14,11 @@ import DS from "./Projects/DataScience";
 import Dwg from "../../assets/images/projects/DrawingComparison/Dwg_sm.png"
 import Glove from "../../assets/images/projects/Glove Detection/Glove_sm.png"
 import Raw from "../../assets/images/projects/Raw Material/Raw_sm.png"
+import Mbimg from "../../assets/images/projects/MothersonBot/Motherson Bot.png"
+import Pbimg from "../../assets/images/projects/PersonaBot/Persona small.png"
+import MothersonBot from "./Projects/MothersonBot";
+import PersonaBot from "./Projects/PersonaBot";
+
 //import Forkliftcard from "./Projects/Forklift"
 // import M_Translate from "../../assets/images/homepage/M translate.jpg"
 // import DummyContent from "./Projects/DummyContent";
@@ -39,6 +44,18 @@ export function AppleCardsCarouselDemo() {
 
 
 const data = [
+  {
+    category: "",
+    title: "MothersonBot",
+    src: Mbimg, // Direct reference to imported image
+    content: <MothersonBot/>
+  },
+  {
+    category: "",
+    title: "PersonaBot",
+    src: Pbimg, // Direct reference to imported image
+    content: <PersonaBot/>
+  },
   {
     category: "",
     title: "SketchSense",
