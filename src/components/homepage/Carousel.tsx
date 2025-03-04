@@ -46,13 +46,13 @@ export function AppleCardsCarouselDemo() {
 const data = [
   {
     category: "",
-    title: "MothersonBot",
+    title: "KnowledgeKingdom",
     src: Mbimg, // Direct reference to imported image
     content: <MothersonBot/>
   },
   {
     category: "",
-    title: "PersonaBot",
+    title: "PersonaPrime",
     src: Pbimg, // Direct reference to imported image
     content: <PersonaBot/>
   },
