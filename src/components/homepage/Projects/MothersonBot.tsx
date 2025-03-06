@@ -5,7 +5,7 @@ const MothersonBot = () => {
     <div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4 text-left">
       {/* Button */}
       <div className="flex justify-center items-center mb-6">
-        <Button text="Visit KnowledgeKingdom" link="http://10.245.146.157:8794/" />
+        <Button text="Visit KnowledgeKingdom" link="http://10.245.146.250:8794/" />
       </div>
 
       {/* Title */}
