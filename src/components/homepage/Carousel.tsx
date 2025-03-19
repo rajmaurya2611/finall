@@ -18,6 +18,8 @@ import Mbimg from "../../assets/images/projects/MothersonBot/Motherson Bot.png"
 import Pbimg from "../../assets/images/projects/PersonaBot/Persona small.png"
 import MothersonBot from "./Projects/MothersonBot";
 import PersonaBot from "./Projects/PersonaBot";
+import KIPimage from "../../assets/images/projects/KIPBot/KIPBot.png"
+import KIPBot from "./Projects/KIPBot";
 
 //import Forkliftcard from "./Projects/Forklift"
 // import M_Translate from "../../assets/images/homepage/M translate.jpg"
@@ -44,6 +46,12 @@ export function AppleCardsCarouselDemo() {
 
 
 const data = [
+  {
+    category: "",
+    title: "KIPBot",
+    src: KIPimage, // Direct reference to imported image
+    content: <KIPBot/>
+  },
   {
     category: "",
     title: "KnowledgeKingdom",
