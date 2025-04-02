@@ -20,6 +20,8 @@ import MothersonBot from "./Projects/MothersonBot";
 import PersonaBot from "./Projects/PersonaBot";
 import KIPimage from "../../assets/images/projects/KIPBot/KIPBot.png"
 import KIPBot from "./Projects/KIPBot";
+import Forklift from "./Projects/Forklift";
+import Forkliftimg from "../../assets/images/projects/Forklift/forklift_small.png"
 
 //import Forkliftcard from "./Projects/Forklift"
 // import M_Translate from "../../assets/images/homepage/M translate.jpg"
@@ -81,6 +83,12 @@ const data = [
     title: "GloveGuardian",
     src: Glove, // Direct reference to imported image
     content: <GloveDetection/>
+  },
+  {
+    category: "",
+    title: "Safelift",
+    src: Forkliftimg, // Direct reference to imported image
+    content: <Forklift/>
   },
   {
     category: "",
