@@ -6,7 +6,7 @@ const PulseHR = () => {
       
       {/* Button */}
       <div className="flex justify-center items-center mb-6">
-        <Button text="Visit HR Assistant" link="http://10.245.146.250:8796/" />
+        <Button text="See Demo" link="http://10.245.146.250:8796/" />
       </div>
 
       {/* Title */}
