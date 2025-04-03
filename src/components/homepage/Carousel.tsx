@@ -22,6 +22,8 @@ import KIPimage from "../../assets/images/projects/KIPBot/KIPBot.png"
 import KIPBot from "./Projects/KIPBot";
 import Forklift from "./Projects/Forklift";
 import Forkliftimg from "../../assets/images/projects/Forklift/forklift_small.png"
+import PulseHR from "./Projects/PulseHR";
+import PulseHR_small from "../../assets/images/projects/PulseHR/PulseHR_small.png";
 
 //import Forkliftcard from "./Projects/Forklift"
 // import M_Translate from "../../assets/images/homepage/M translate.jpg"
@@ -107,6 +109,12 @@ const data = [
     title: "LegalLens",
     src: ClauseLens, // Direct reference to imported image
     content: <MNA />,
+  },
+  {
+    category: "",
+    title: "PulseHR",
+    src: PulseHR_small, // Direct reference to imported image
+    content: <PulseHR/>,
   },
   {
     category: "",
