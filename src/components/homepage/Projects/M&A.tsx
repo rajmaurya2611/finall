@@ -8,7 +8,7 @@ const MNA = () => {
 
       {/* Button */}
       <div className="flex justify-center items-center mb-6">
-        <Button text="Visit LegalLens AI" link="http://10.245.146.250:8789/" />
+        <Button text="Visit LegalLens AI" link="http://10.245.146.250:8791/" />
       </div>
 
       {/* Title */}

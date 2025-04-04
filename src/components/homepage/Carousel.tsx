@@ -52,27 +52,33 @@ export function AppleCardsCarouselDemo() {
 const data = [
   {
     category: "",
-    title: "KIPBot",
-    src: KIPimage, // Direct reference to imported image
-    content: <KIPBot/>
-  },
-  {
-    category: "",
-    title: "KnowledgeKingdom",
-    src: Mbimg, // Direct reference to imported image
-    content: <MothersonBot/>
-  },
-  {
-    category: "",
-    title: "PersonaPrime",
-    src: Pbimg, // Direct reference to imported image
-    content: <PersonaBot/>
-  },
-  {
-    category: "",
     title: "SketchSense",
     src: Dwg, // Direct reference to imported image
     content: <DrawingComparison/>,
+  },
+  {
+    category: "",
+    title: "LegalLens",
+    src: ClauseLens, // Direct reference to imported image
+    content: <MNA />,
+  },
+  {
+    category: "",
+    title: "ProfitPulse",
+    src: Raw, // Direct reference to imported image
+    content: <DS/>
+  },
+  {
+    category: "",
+    title: "BudgetBeacon",
+    src: Fin_small, // Direct reference to imported image
+    content: <FinancialBot/>,
+  },
+  {
+    category: "",
+    title: "PulseHR",
+    src: PulseHR_small, // Direct reference to imported image
+    content: <PulseHR/>,
   },
   {
     category: "",
@@ -94,9 +100,9 @@ const data = [
   },
   {
     category: "",
-    title: "ProfitPulse",
-    src: Raw, // Direct reference to imported image
-    content: <DS/>
+    title: "KnowledgeKingdom",
+    src: Mbimg, // Direct reference to imported image
+    content: <MothersonBot/>
   },
   {
     category: "",
@@ -106,22 +112,18 @@ const data = [
   },
   {
     category: "",
-    title: "LegalLens",
-    src: ClauseLens, // Direct reference to imported image
-    content: <MNA />,
+    title: "KIPBot",
+    src: KIPimage, // Direct reference to imported image
+    content: <KIPBot/>
   },
   {
     category: "",
-    title: "PulseHR",
-    src: PulseHR_small, // Direct reference to imported image
-    content: <PulseHR/>,
+    title: "PersonaPrime",
+    src: Pbimg, // Direct reference to imported image
+    content: <PersonaBot/>
   },
-  {
-    category: "",
-    title: "BudgetBeacon",
-    src: Fin_small, // Direct reference to imported image
-    content: <FinancialBot/>,
-  },
+  
+  
   // {
   //   category: "",
   //   title: "Translate Titan",
